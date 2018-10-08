@@ -39,9 +39,7 @@ Citizen.CreateThread(function()
 			Citizen.Wait(100)
 			end
 			
-			Citizen.Trace('Aiming')
 				if DoesEntityExist(targetPed) and IsEntityAPed(targetPed) then
-				Citizen.Trace('Exists')
 				-- LoadAnimationDictionary("random@mugging3")
 					if IsPedDeadOrDying(targetPed, true) then
 						ESX.ShowNotification("The guy you're robbing is dead")
@@ -55,7 +53,6 @@ Citizen.CreateThread(function()
 						FreezeEntityPosition(targetPed, false)
 						Citizen.Wait(timeToWait)
 						robbed = false
-						-- DeletePed(targetPed)
 						end
 					end
 				end
