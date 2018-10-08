@@ -1,4 +1,4 @@
-# fxserver-esx_boilerplate
-FXServer ESX Boilerplate
+# esx_robnpc
+Simple as it reads.
 
-This a sample script for es_extended
+Aim an NPC and press E for it to give you money.
